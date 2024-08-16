@@ -36,11 +36,16 @@ const Navbar = () => {
                 </NavLink>
               </li>
               <li>
-                <NavLink>All Products</NavLink>
+                <NavLink
+                 to="/all-products"
+                 className={({ isActive }) =>
+                   isActive ? "text-[#E0F000] text-xl font-bold" : ""
+                 }
+                >All Products</NavLink>
               </li>
-              <li>
+              {/* <li>
                 <NavLink to="/"> Dashboard </NavLink>
-              </li>
+              </li> */}
             </ul>
 
             <div
@@ -85,8 +90,8 @@ const Navbar = () => {
       {!clicked ? (
         <div className="md:hidden flex flex-col font-roboto font-semibold gap-2 py-4 items-center font-inter">
           <NavLink to="/">HOME</NavLink>
-          <NavLink to="/all-properties"> All Products</NavLink>
-          <NavLink>Dashboard</NavLink>
+          <NavLink to="/all-products"> All Products</NavLink>
+          {/* <NavLink>Dashboard</NavLink> */}
           {user ? (
             <NavLink to="/">
               <button>Logout</button>

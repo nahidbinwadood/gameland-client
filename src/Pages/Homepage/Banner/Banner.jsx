@@ -13,8 +13,7 @@ import bg5 from "../../../assets/banner5.jpg";
 
 const Banner = () => {
   return (
-    <div className="pb-10 "
-    >
+    <div>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}

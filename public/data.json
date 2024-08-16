@@ -58,5 +58,236 @@
         "category": "RAM",
         "ratings": 4.7,
         "productCreationDateTime": "08/13/24, 3:30 PM"
+    },
+ 
+    {
+        "productName": "Intel Core i7-12700K",
+        "productImage": "https://i.ibb.co/RjmWNjw/intel-core-i7-12700k-processor.jpg",
+        "description": "A 12th-gen processor with 12 cores and 20 threads, great for gaming and productivity tasks.",
+        "price": 45000,
+        "brand":"Intel",
+        "category": "Processor",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/14/24, 4:00 PM"
+    },
+    {
+        "productName": "AMD Ryzen 7 5800X",
+        "productImage": "https://i.ibb.co/qdtDXrr/amd-ryzen-7-5800x-processor.jpg",
+        "description": "An 8-core processor from AMD’s Ryzen 5000 series, known for its performance in gaming.",
+        "price": 42500,
+        "brand":"AMD",
+        "category": "Processor",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/14/24, 4:15 PM"
+    },
+    {
+        "productName": "Gigabyte Z690 AORUS Master",
+        "productImage": "https://i.ibb.co/dBxqLqg/gigabyte-z690-aorus-master-motherboard.jpg",
+        "description": "A high-end motherboard with DDR5 support and PCIe 5.0, ideal for gaming enthusiasts.",
+        "price": 52000,
+        "brand":"Gigabyte",
+        "category": "Motherboard",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/15/24, 3:30 PM"
+    },
+    {
+        "productName": "ASRock B550M Steel Legend",
+        "productImage": "https://i.ibb.co/xhJ3ZvT/asrock-b550m-steel-legend-motherboard.jpg",
+        "description": "A reliable micro-ATX motherboard with solid features, suitable for AMD Ryzen builds.",
+        "price": 13500,
+        "brand":"ASRock",
+        "category": "Motherboard",
+        "ratings": 4.5,
+        "productCreationDateTime": "08/15/24, 4:00 PM"
+    },
+    {
+        "productName": "G.Skill Ripjaws V 16GB",
+        "productImage": "https://i.ibb.co/6gXvgRg/gskill-ripjaws-v-16gb-ddr4-3200mhz-ram.jpg",
+        "description": "16GB DDR4 RAM with a sleek design and reliable performance for gaming and multitasking.",
+        "price": 9500,
+        "brand":"G.Skill",
+        "category": "RAM",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/14/24, 4:30 PM"
+    },
+    {
+        "productName": "Corsair Dominator Platinum RGB 32GB",
+        "productImage": "https://i.ibb.co/jHD0jzC/corsair-dominator-platinum-rgb-32gb-ddr4-ram.jpg",
+        "description": "High-performance 32GB DDR4 RAM with customizable RGB lighting, perfect for gaming setups.",
+        "price": 18500,
+        "brand":"Corsair",
+        "category": "RAM",
+        "ratings": 4.9,
+        "productCreationDateTime": "08/15/24, 4:45 PM"
+    },
+    {
+        "productName": "MSI MPG B550 Gaming Edge WiFi",
+        "productImage": "https://i.ibb.co/ZVv9C3N/msi-mpg-b550-gaming-edge-wifi-motherboard.jpg",
+        "description": "A versatile motherboard with Wi-Fi 6 and PCIe 4.0 support, designed for AMD Ryzen processors.",
+        "price": 19800,
+        "brand":"MSI",
+        "category": "Motherboard",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/13/24, 2:50 PM"
+    },
+    {
+        "productName": "Samsung 980 Pro 1TB NVMe SSD",
+        "productImage": "https://i.ibb.co/TrgVf3H/samsung-980-pro-1tb-nvme-ssd.jpg",
+        "description": "A lightning-fast 1TB NVMe SSD with PCIe 4.0 support, ideal for high-performance computing.",
+        "price": 16000,
+        "brand":"Samsung",
+        "category": "Storage",
+        "ratings": 4.9,
+        "productCreationDateTime": "08/12/24, 5:10 PM"
+    },
+    {
+        "productName": "Western Digital Black SN850 1TB NVMe SSD",
+        "productImage": "https://i.ibb.co/JvZH6Qx/wd-black-sn850-1tb-nvme-ssd.jpg",
+        "description": "A top-tier 1TB NVMe SSD with exceptional speed and reliability, perfect for gamers.",
+        "price": 15500,
+        "brand":"Western Digital",
+        "category": "Storage",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/12/24, 5:25 PM"
+    },
+    {
+        "productName": "Seagate FireCuda 520 2TB NVMe SSD",
+        "productImage": "https://i.ibb.co/S6G4tXg/seagate-firecuda-520-2tb-nvme-ssd.jpg",
+        "description": "A high-capacity 2TB NVMe SSD with blazing-fast read and write speeds, designed for heavy workloads.",
+        "price": 32000,
+        "brand":"Seagate",
+        "category": "Storage",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/12/24, 5:40 PM"
+    },
+    {
+        "productName": "Kingston Fury Renegade 16GB DDR5",
+        "productImage": "https://i.ibb.co/Cb6dpzR/kingston-fury-renegade-16gb-ddr5-ram.jpg",
+        "description": "16GB DDR5 RAM with cutting-edge speed, optimized for high-performance computing.",
+        "price": 12000,
+        "brand":"Kingston",
+        "category": "RAM",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/14/24, 6:10 PM"
+    },
+    {
+        "productName": "Intel Core i5-12600K",
+        "productImage": "https://i.ibb.co/KshWqsQ/intel-core-i5-12600k-processor.jpg",
+        "description": "A mid-range 12th-gen processor with 10 cores and 16 threads, offering great value for gaming.",
+        "price": 31000,
+        "brand":"Intel",
+        "category": "Processor",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/14/24, 6:20 PM"
+    },
+    {
+        "productName": "AMD Ryzen 5 5600X",
+        "productImage": "https://i.ibb.co/26MkRk5/amd-ryzen-5-5600x-processor.jpg",
+        "description": "A popular 6-core processor from AMD’s Ryzen 5000 series, known for its balance between price and performance.",
+        "price": 27000,
+        "brand":"AMD",
+        "category": "Processor",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/14/24, 6:30 PM"
+    },
+    {
+        "productName": "Corsair MP600 Pro XT 1TB NVMe SSD",
+        "productImage": "https://i.ibb.co/FH95pZj/corsair-mp600-pro-xt-1tb-nvme-ssd.jpg",
+        "description": "A high-performance 1TB NVMe SSD with PCIe 4.0 support, built for gaming and creative work.",
+        "price": 14000,
+        "brand":"Corsair",
+        "category": "Storage",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/12/24, 6:40 PM"
+    },
+    {
+        "productName": "ASUS TUF Gaming X570-PRO",
+        "productImage": "https://i.ibb.co/FwXwT4B/asus-tuf-gaming-x570-pro-motherboard.jpg",
+        "description": "A durable motherboard with PCIe 4.0 support and robust power delivery, perfect for gaming PCs.",
+        "price": 22000,
+        "brand":"ASUS",
+        "category": "Motherboard",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/13/24, 6:50 PM"
+    },
+    {
+        "productName": "MSI MEG Z490 GODLIKE",
+        "productImage": "https://i.ibb.co/SmgFmSx/msi-meg-z490-godlike-motherboard.jpg",
+        "description": "A top-tier motherboard with premium features like dual Thunderbolt 3 ports, ideal for high-end builds.",
+        "price": 60000,
+        "brand":"MSI",
+        "category": "Motherboard",
+        "ratings": 4.9,
+        "productCreationDateTime": "08/13/24, 7:00 PM"
+    },
+    {
+        "productName": "Adata XPG Spectrix D50 32GB",
+        "productImage": "https://i.ibb.co/Zmy7Yzt/adata-xpg-spectrix-d50-32gb-ddr4-ram.jpg",
+        "description": "32GB DDR4 RAM with stunning RGB lighting, offering excellent performance for gaming.",
+        "price": 17500,
+        "brand":"Adata",
+        "category": "RAM",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/14/24, 7:10 PM"
+    },
+    {
+        "productName": "Crucial Ballistix 16GB DDR4",
+        "productImage": "https://i.ibb.co/fdCqGnt/crucial-ballistix-16gb-ddr4-ram.jpg",
+        "description": "16GB DDR4 RAM with a sleek design and reliable performance, perfect for gaming and productivity.",
+        "price": 8500,
+        "brand":"Crucial",
+        "category": "RAM",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/14/24, 7:20 PM"
+    },
+    {
+        "productName": "NZXT N7 Z590",
+        "productImage": "https://i.ibb.co/9qRF9q7/nzxt-n7-z590-motherboard.jpg",
+        "description": "A stylish motherboard with advanced features, including Wi-Fi 6E and PCIe 4.0, for gaming enthusiasts.",
+        "price": 35000,
+        "brand":"NZXT",
+        "category": "Motherboard",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/13/24, 7:30 PM"
+    },
+    {
+        "productName": "Samsung 970 Evo Plus 500GB NVMe SSD",
+        "productImage": "https://i.ibb.co/TknR6Kd/samsung-970-evo-plus-500gb-nvme-ssd.jpg",
+        "description": "A reliable 500GB NVMe SSD with fast read/write speeds, perfect for everyday computing.",
+        "price": 8000,
+        "brand":"Samsung",
+        "category": "Storage",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/12/24, 7:40 PM"
+    },
+    {
+        "productName": "Western Digital Blue 1TB SATA SSD",
+        "productImage": "https://i.ibb.co/5jvYJbN/wd-blue-1tb-sata-ssd.jpg",
+        "description": "A dependable 1TB SATA SSD offering great performance and value for general storage needs.",
+        "price": 10000,
+        "brand":"Western Digital",
+        "category": "Storage",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/12/24, 7:50 PM"
+    },
+    {
+        "productName": "Crucial P5 Plus 2TB NVMe SSD",
+        "productImage": "https://i.ibb.co/WnFsMV4/crucial-p5-plus-2tb-nvme-ssd.jpg",
+        "description": "A high-capacity 2TB NVMe SSD with PCIe 4.0 support, designed for demanding applications.",
+        "price": 28000,
+        "brand":"Crucial",
+        "category": "Storage",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/12/24, 8:00 PM"
+    },
+    {
+        "productName": "Kingston A2000 500GB NVMe SSD",
+        "productImage": "https://i.ibb.co/YZwSshf/kingston-a2000-500gb-nvme-ssd.jpg",
+        "description": "A budget-friendly 500GB NVMe SSD offering solid performance for everyday tasks.",
+        "price": 7000,
+        "brand":"Kingston",
+        "category": "Storage",
+        "ratings": 4.5,
+        "productCreationDateTime": "08/12/24, 8:10 PM"
     }
 ]

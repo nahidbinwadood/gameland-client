@@ -1,18 +1,31 @@
 import { useEffect, useState } from "react";
 import ProductsCard from "../../../Components/ProductsCard";
+import useAxiosPublic from "../../../Hooks/useAxiosPublic";
 
 const Properties = () => {
+  const axiosPublic=useAxiosPublic();
   const [data, setData] = useState([]);
-  useEffect(() => {
-    fetch("/data.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data);
-      });
-  }, []);
-  console.log(data);
+  const [brandName, setBrandName] = useState("");
+  const [category, setCategory] = useState("");
+  const [priceRange, setPriceRange] = useState("");
+  const [filter, setFilter] = useState("");
+  const pages = [...Array(5).keys()].map((e) => e + 1);
+  const [search, setSearch] = useState("");
+  const [searchText, setSearchText] = useState("");
+  const handleSearch = () => {
+    console.log("searching text is", searchText);
+    setSearch(searchText);
+  };
+  console.log(brandName, category, priceRange, filter,search);
 
-  const  pages=[...Array(5).keys()].map(e=>e+1)
+  useEffect(() => {
+    const getData=async()=>{
+      const response= await axiosPublic("/products")
+      setData(response.data)
+    }
+    getData()
+  }, [axiosPublic]);
+
   return (
     <div className="mt-20 container mx-auto">
       <div className="text-center space-y-4">
@@ -32,7 +45,9 @@ const Properties = () => {
         <div className="flex flex-col md:flex-row gap-5 items-center">
           <div>
             <select
-              // onChange={e => {  setFilter(e.target.value) }}
+              onChange={(e) => {
+                setBrandName(e.target.value);
+              }}
               defaultValue="default"
               name="category"
               id="category"
@@ -51,7 +66,9 @@ const Properties = () => {
           </div>
           <div>
             <select
-              // onChange={e => { setSort(e.target.value) }}
+              onChange={(e) => {
+                setCategory(e.target.value);
+              }}
               defaultValue="default"
               name="category"
               id="category"
@@ -68,7 +85,7 @@ const Properties = () => {
           </div>
           <div>
             <select
-              // onChange={(e) => setPriceRange(e.target.value)}
+              onChange={(e) => setPriceRange(e.target.value)}
               defaultValue="default"
               name="category"
               id="category"
@@ -87,14 +104,14 @@ const Properties = () => {
           </div>
           <div>
             <select
-              // onChange={(e) => setPriceRange(e.target.value)}
+              onChange={(e) => setFilter(e.target.value)}
               defaultValue="default"
               name="category"
               id="category"
               className="border p-3 input input-bordered rounded-md"
             >
               <option value="default" disabled>
-                Sort By  
+                Sort By
               </option>
               <option value="asc">{`Price(High>Low)`}</option>
               <option value="dsc">{`Price(Low>High)`}</option>
@@ -114,15 +131,15 @@ const Properties = () => {
             <input
               className="px-6 py-2 border-none text-gray-700 placeholder-gray-500 bg-white outline-none focus:placeholder-transparent"
               type="text"
-              //  onChange={(e) => setSearchText(e.target.value)}
-              // value={searchText}
+              onChange={(e) => setSearchText(e.target.value)}
+              value={searchText}
               name="search"
               placeholder="Enter the product name"
               aria-label="Enter the product name"
             />
 
             <button
-              // onClick={() => handleSearch()}
+               onClick={() => handleSearch()}
               type="button"
               className="inline-block bg-yellow-500 rounded-lg bg-warning px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-warning-3 transition duration-150 ease-in-out hover:bg-warning-accent-300 hover:shadow-warning-2 focus:bg-warning-accent-300 focus:shadow-warning-2 focus:outline-none focus:ring-0 active:bg-warning-600 active:shadow-warning-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
             >
@@ -140,36 +157,36 @@ const Properties = () => {
       </div>
 
       {/* Pagination Section */}
-      <div className='flex justify-center mt-12'>
+      <div className="flex justify-center mt-12">
         {/* Previous Button */}
         <button
           //disabled={currentPage === 1}
           //onClick={() => handlePaginationButton(currentPage - 1)}
-          className='px-4 py-2 mx-1 text-gray-700 disabled:text-gray-500 capitalize bg-gray-200 rounded-md disabled:cursor-not-allowed disabled:hover:bg-gray-200 disabled:hover:text-gray-500 hover:bg-blue-500  hover:text-white'
+          className="px-4 py-2 mx-1 text-gray-700 disabled:text-gray-500 capitalize bg-gray-200 rounded-md disabled:cursor-not-allowed disabled:hover:bg-gray-200 disabled:hover:text-gray-500 hover:bg-blue-500  hover:text-white"
         >
-          <div className='flex items-center -mx-1'>
+          <div className="flex items-center -mx-1">
             <svg
-              xmlns='http://www.w3.org/2000/svg'
-              className='w-6 h-6 mx-1 rtl:-scale-x-100'
-              fill='none'
-              viewBox='0 0 24 24'
-              stroke='currentColor'
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-6 h-6 mx-1 rtl:-scale-x-100"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
               <path
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeWidth='2'
-                d='M7 16l-4-4m0 0l4-4m-4 4h18'
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M7 16l-4-4m0 0l4-4m-4 4h18"
               />
             </svg>
 
-            <span className='mx-1'>previous</span>
+            <span className="mx-1">previous</span>
           </div>
         </button>
         {/* Numbers */}
-        {pages.map(btnNum => (
+        {pages.map((btnNum) => (
           <button
-           // onClick={() => handlePaginationButton(btnNum)}
+            // onClick={() => handlePaginationButton(btnNum)}
             key={btnNum}
             className={`hidden   px-4 py-2 mx-1 transition-colors duration-300 transform  rounded-md sm:inline hover:bg-blue-500  hover:text-white`}
           >
@@ -180,23 +197,23 @@ const Properties = () => {
         <button
           //disabled={currentPage === numberOfPages}
           //onClick={() => handlePaginationButton(currentPage + 1)}
-          className='px-4 py-2 mx-1 text-gray-700 transition-colors duration-300 transform bg-gray-200 rounded-md hover:bg-blue-500 disabled:hover:bg-gray-200 disabled:hover:text-gray-500 hover:text-white disabled:cursor-not-allowed disabled:text-gray-500'
+          className="px-4 py-2 mx-1 text-gray-700 transition-colors duration-300 transform bg-gray-200 rounded-md hover:bg-blue-500 disabled:hover:bg-gray-200 disabled:hover:text-gray-500 hover:text-white disabled:cursor-not-allowed disabled:text-gray-500"
         >
-          <div className='flex items-center -mx-1'>
-            <span className='mx-1'>Next</span>
+          <div className="flex items-center -mx-1">
+            <span className="mx-1">Next</span>
 
             <svg
-              xmlns='http://www.w3.org/2000/svg'
-              className='w-6 h-6 mx-1 rtl:-scale-x-100'
-              fill='none'
-              viewBox='0 0 24 24'
-              stroke='currentColor'
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-6 h-6 mx-1 rtl:-scale-x-100"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
             >
               <path
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                strokeWidth='2'
-                d='M17 8l4 4m0 0l-4 4m4-4H3'
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
               />
             </svg>
           </div>
