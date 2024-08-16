@@ -125,7 +125,7 @@ const Properties = () => {
                 <option value="Processor">Processor</option>
                 <option value="Motherboard">Motherboard</option>
                 <option value="RAM">Ram</option>
-                <option value="GraphicsCard">GraphicsCard</option>
+                <option value="Graphics Card">GraphicsCard</option>
               </select>
             </div>
           </div>
@@ -204,7 +204,7 @@ const Properties = () => {
 
       {/* Pagination Section */}
 
-      <div className="flex flex-wrap gap-4 justify-center mt-12">
+      <div className="flex flex-wrap gap-4 md:gap-0 justify-center mt-12">
         {/* Previous Button */}
         <button
           disabled={currentPage === 1}

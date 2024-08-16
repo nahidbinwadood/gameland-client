@@ -62,7 +62,7 @@
  
     {
         "productName": "Intel Core i7-12700K",
-        "productImage": "https://i.ibb.co/RjmWNjw/intel-core-i7-12700k-processor.jpg",
+        "productImage": "https://i.ibb.co/pbKN9Xx/1.jpg",
         "description": "A 12th-gen processor with 12 cores and 20 threads, great for gaming and productivity tasks.",
         "price": 45000,
         "brand":"Intel",
@@ -72,7 +72,7 @@
     },
     {
         "productName": "AMD Ryzen 7 5800X",
-        "productImage": "https://i.ibb.co/qdtDXrr/amd-ryzen-7-5800x-processor.jpg",
+        "productImage": "https://i.ibb.co/GHbpTXt/2.jpg",
         "description": "An 8-core processor from AMD’s Ryzen 5000 series, known for its performance in gaming.",
         "price": 42500,
         "brand":"AMD",
@@ -82,7 +82,7 @@
     },
     {
         "productName": "Gigabyte Z690 AORUS Master",
-        "productImage": "https://i.ibb.co/dBxqLqg/gigabyte-z690-aorus-master-motherboard.jpg",
+        "productImage": "https://i.ibb.co/HBZ6w6Y/3.jpg",
         "description": "A high-end motherboard with DDR5 support and PCIe 5.0, ideal for gaming enthusiasts.",
         "price": 52000,
         "brand":"Gigabyte",
@@ -92,7 +92,7 @@
     },
     {
         "productName": "ASRock B550M Steel Legend",
-        "productImage": "https://i.ibb.co/xhJ3ZvT/asrock-b550m-steel-legend-motherboard.jpg",
+        "productImage": "https://i.ibb.co/3rG0g25/4.png",
         "description": "A reliable micro-ATX motherboard with solid features, suitable for AMD Ryzen builds.",
         "price": 13500,
         "brand":"ASRock",
@@ -102,7 +102,7 @@
     },
     {
         "productName": "G.Skill Ripjaws V 16GB",
-        "productImage": "https://i.ibb.co/6gXvgRg/gskill-ripjaws-v-16gb-ddr4-3200mhz-ram.jpg",
+        "productImage": "https://i.ibb.co/VQ1MJ8Y/5.jpg",
         "description": "16GB DDR4 RAM with a sleek design and reliable performance for gaming and multitasking.",
         "price": 9500,
         "brand":"G.Skill",
@@ -112,7 +112,7 @@
     },
     {
         "productName": "Corsair Dominator Platinum RGB 32GB",
-        "productImage": "https://i.ibb.co/jHD0jzC/corsair-dominator-platinum-rgb-32gb-ddr4-ram.jpg",
+        "productImage": "https://i.ibb.co/5hbjCnw/6.jpg",
         "description": "High-performance 32GB DDR4 RAM with customizable RGB lighting, perfect for gaming setups.",
         "price": 18500,
         "brand":"Corsair",
@@ -122,7 +122,7 @@
     },
     {
         "productName": "MSI MPG B550 Gaming Edge WiFi",
-        "productImage": "https://i.ibb.co/ZVv9C3N/msi-mpg-b550-gaming-edge-wifi-motherboard.jpg",
+        "productImage": "https://i.ibb.co/vjpP23Y/7.jpg",
         "description": "A versatile motherboard with Wi-Fi 6 and PCIe 4.0 support, designed for AMD Ryzen processors.",
         "price": 19800,
         "brand":"MSI",
@@ -132,7 +132,7 @@
     },
     {
         "productName": "Samsung 980 Pro 1TB NVMe SSD",
-        "productImage": "https://i.ibb.co/TrgVf3H/samsung-980-pro-1tb-nvme-ssd.jpg",
+        "productImage": "https://i.ibb.co/T4CFpch/8.jpg",
         "description": "A lightning-fast 1TB NVMe SSD with PCIe 4.0 support, ideal for high-performance computing.",
         "price": 16000,
         "brand":"Samsung",
@@ -142,7 +142,7 @@
     },
     {
         "productName": "Western Digital Black SN850 1TB NVMe SSD",
-        "productImage": "https://i.ibb.co/JvZH6Qx/wd-black-sn850-1tb-nvme-ssd.jpg",
+        "productImage": "https://i.ibb.co/vsXmFdp/9.jpg",
         "description": "A top-tier 1TB NVMe SSD with exceptional speed and reliability, perfect for gamers.",
         "price": 15500,
         "brand":"Western Digital",
@@ -152,7 +152,7 @@
     },
     {
         "productName": "Seagate FireCuda 520 2TB NVMe SSD",
-        "productImage": "https://i.ibb.co/S6G4tXg/seagate-firecuda-520-2tb-nvme-ssd.jpg",
+        "productImage": "https://i.ibb.co/4ScSmJZ/10.jpg",
         "description": "A high-capacity 2TB NVMe SSD with blazing-fast read and write speeds, designed for heavy workloads.",
         "price": 32000,
         "brand":"Seagate",
@@ -162,7 +162,7 @@
     },
     {
         "productName": "Kingston Fury Renegade 16GB DDR5",
-        "productImage": "https://i.ibb.co/Cb6dpzR/kingston-fury-renegade-16gb-ddr5-ram.jpg",
+        "productImage": "https://i.ibb.co/Dw3NVJs/11.jpg",
         "description": "16GB DDR5 RAM with cutting-edge speed, optimized for high-performance computing.",
         "price": 12000,
         "brand":"Kingston",
@@ -172,7 +172,7 @@
     },
     {
         "productName": "Intel Core i5-12600K",
-        "productImage": "https://i.ibb.co/KshWqsQ/intel-core-i5-12600k-processor.jpg",
+        "productImage": "https://i.ibb.co/t47PVZW/12.jpg",
         "description": "A mid-range 12th-gen processor with 10 cores and 16 threads, offering great value for gaming.",
         "price": 31000,
         "brand":"Intel",
@@ -182,7 +182,7 @@
     },
     {
         "productName": "AMD Ryzen 5 5600X",
-        "productImage": "https://i.ibb.co/26MkRk5/amd-ryzen-5-5600x-processor.jpg",
+        "productImage": "https://i.ibb.co/dQB4JLS/13.jpg",
         "description": "A popular 6-core processor from AMD’s Ryzen 5000 series, known for its balance between price and performance.",
         "price": 27000,
         "brand":"AMD",
@@ -192,7 +192,7 @@
     },
     {
         "productName": "Corsair MP600 Pro XT 1TB NVMe SSD",
-        "productImage": "https://i.ibb.co/FH95pZj/corsair-mp600-pro-xt-1tb-nvme-ssd.jpg",
+        "productImage": "https://i.ibb.co/QXWk6py/14.jpg",
         "description": "A high-performance 1TB NVMe SSD with PCIe 4.0 support, built for gaming and creative work.",
         "price": 14000,
         "brand":"Corsair",
@@ -202,7 +202,7 @@
     },
     {
         "productName": "ASUS TUF Gaming X570-PRO",
-        "productImage": "https://i.ibb.co/FwXwT4B/asus-tuf-gaming-x570-pro-motherboard.jpg",
+        "productImage": "https://i.ibb.co/SsdZp69/15.jpg",
         "description": "A durable motherboard with PCIe 4.0 support and robust power delivery, perfect for gaming PCs.",
         "price": 22000,
         "brand":"ASUS",
@@ -212,7 +212,7 @@
     },
     {
         "productName": "MSI MEG Z490 GODLIKE",
-        "productImage": "https://i.ibb.co/SmgFmSx/msi-meg-z490-godlike-motherboard.jpg",
+        "productImage": "https://i.ibb.co/rp0Kg2b/16.jpg",
         "description": "A top-tier motherboard with premium features like dual Thunderbolt 3 ports, ideal for high-end builds.",
         "price": 60000,
         "brand":"MSI",
@@ -222,7 +222,7 @@
     },
     {
         "productName": "Adata XPG Spectrix D50 32GB",
-        "productImage": "https://i.ibb.co/Zmy7Yzt/adata-xpg-spectrix-d50-32gb-ddr4-ram.jpg",
+        "productImage": "https://i.ibb.co/4FLnwVS/17.jpg",
         "description": "32GB DDR4 RAM with stunning RGB lighting, offering excellent performance for gaming.",
         "price": 17500,
         "brand":"Adata",
@@ -232,7 +232,7 @@
     },
     {
         "productName": "Crucial Ballistix 16GB DDR4",
-        "productImage": "https://i.ibb.co/fdCqGnt/crucial-ballistix-16gb-ddr4-ram.jpg",
+        "productImage": "https://i.ibb.co/nL3Fys4/18.jpg",
         "description": "16GB DDR4 RAM with a sleek design and reliable performance, perfect for gaming and productivity.",
         "price": 8500,
         "brand":"Crucial",
@@ -242,7 +242,7 @@
     },
     {
         "productName": "NZXT N7 Z590",
-        "productImage": "https://i.ibb.co/9qRF9q7/nzxt-n7-z590-motherboard.jpg",
+        "productImage": "https://i.ibb.co/pbnLFm4/19.jpg",
         "description": "A stylish motherboard with advanced features, including Wi-Fi 6E and PCIe 4.0, for gaming enthusiasts.",
         "price": 35000,
         "brand":"NZXT",
@@ -252,7 +252,7 @@
     },
     {
         "productName": "Samsung 970 Evo Plus 500GB NVMe SSD",
-        "productImage": "https://i.ibb.co/TknR6Kd/samsung-970-evo-plus-500gb-nvme-ssd.jpg",
+        "productImage": "https://i.ibb.co/qJ6tR93/20.jpg",
         "description": "A reliable 500GB NVMe SSD with fast read/write speeds, perfect for everyday computing.",
         "price": 8000,
         "brand":"Samsung",
@@ -262,7 +262,7 @@
     },
     {
         "productName": "Western Digital Blue 1TB SATA SSD",
-        "productImage": "https://i.ibb.co/5jvYJbN/wd-blue-1tb-sata-ssd.jpg",
+        "productImage": "https://i.ibb.co/NCNGyg2/21.jpg",
         "description": "A dependable 1TB SATA SSD offering great performance and value for general storage needs.",
         "price": 10000,
         "brand":"Western Digital",
@@ -272,7 +272,7 @@
     },
     {
         "productName": "Crucial P5 Plus 2TB NVMe SSD",
-        "productImage": "https://i.ibb.co/WnFsMV4/crucial-p5-plus-2tb-nvme-ssd.jpg",
+        "productImage": "https://i.ibb.co/dDDTD0T/22.jpg",
         "description": "A high-capacity 2TB NVMe SSD with PCIe 4.0 support, designed for demanding applications.",
         "price": 28000,
         "brand":"Crucial",
@@ -282,12 +282,354 @@
     },
     {
         "productName": "Kingston A2000 500GB NVMe SSD",
-        "productImage": "https://i.ibb.co/YZwSshf/kingston-a2000-500gb-nvme-ssd.jpg",
+        "productImage": "https://i.ibb.co/wgncF6V/23.jpg",
         "description": "A budget-friendly 500GB NVMe SSD offering solid performance for everyday tasks.",
         "price": 7000,
         "brand":"Kingston",
         "category": "Storage",
         "ratings": 4.5,
         "productCreationDateTime": "08/12/24, 8:10 PM"
+    }, 
+    {
+        "productName": "Intel Core i7-13700K",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/Intel/13th-gen/intel-core-i7-13700k-processor.jpg",
+        "description": "A powerful 13th-gen processor with 16 cores and 24 threads, perfect for demanding applications and gaming.",
+        "price": 45000,
+        "brand": "Intel",
+        "category": "Processor",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/16/24, 3:00 PM"
+    },
+    {
+        "productName": "Intel Core i9-11900K",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/Intel/11th-gen/Intel_11th_Gen_Core_i9_11900K.jpg",
+        "description": "An 11th-gen processor with 8 cores and 16 threads, providing excellent gaming performance.",
+        "price": 55000,
+        "brand": "Intel",
+        "category": "Processor",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/16/24, 3:15 PM"
+    },
+    {
+        "productName": "Intel Core i5-13600K",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/Intel/13th-gen/intel-core-i5-13600k-processor.jpg",
+        "description": "A mid-range 13th-gen processor with 14 cores and 20 threads, suitable for both gaming and productivity.",
+        "price": 35000,
+        "brand": "Intel",
+        "category": "Processor",
+        "ratings": 4.5,
+        "productCreationDateTime": "08/16/24, 3:30 PM"
+    },
+    {
+        "productName": "Intel Core i7-10700K",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/Intel/i7%20/intel-core-i7-10700-processor.jpg",
+        "description": "A 10th-gen processor with 8 cores and 16 threads, offering solid performance for gaming and multitasking.",
+        "price": 40000,
+        "brand": "Intel",
+        "category": "Processor",
+        "ratings": 4.4,
+        "productCreationDateTime": "08/16/24, 3:45 PM"
+    },
+    {
+        "productName": "Intel Core i5-11600K",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/Intel/11th-gen/i5-11600/intel-core-i5-11600kf-11th-gen-processor.jpg",
+        "description": "An affordable 11th-gen processor with 6 cores and 12 threads, perfect for budget gaming setups.",
+        "price": 30000,
+        "brand": "Intel",
+        "category": "Processor",
+        "ratings": 4.3,
+        "productCreationDateTime": "08/16/24, 4:00 PM"
+    },
+    {
+        "productName": "MSI Z690 AORUS Master",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Msi/MSI%20MEG%20Z690%20ACE/MSI%20MEG%20Z690%20ACE-01.jpg",
+        "description": "A premium motherboard for Intel 12th-gen processors with support for DDR5 and PCIe 5.0.",
+        "price": 55000,
+        "brand": "Intel",
+        "category": "Motherboard",
+        "ratings": 4.9,
+        "productCreationDateTime": "08/16/24, 4:15 PM"
+    },
+    {
+        "productName": "Gigabyte Z590 AORUS Elite",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Gigabyte/INTEL/z590-aorus-elite-ax/gigabyte-z590-aorus-elite-ax-1.jpg",
+        "description": "A high-performance motherboard for 11th-gen Intel processors, featuring advanced thermal design and robust power delivery.",
+        "price": 45000,
+        "brand": "Intel",
+        "category": "Motherboard",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/16/24, 4:30 PM"
+    },
+    {
+        "productName": "Gigabyte Z490 AORUS Ultra",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Gigabyte/Intel/aorus-z490-ultra-wifi/gigabyte-z490-aorus-ultra-motherboard-2.jpg",
+        "description": "A versatile motherboard for Intel 10th-gen processors, offering a great balance of performance and features.",
+        "price": 40000,
+        "brand": "Intel",
+        "category": "Motherboard",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/16/24, 4:45 PM"
+    },
+    {
+        "productName": "Gigabyte B560M Pro",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Gigabyte/B560M%20AORUS%20PRO%20AX/gigabyte-b560m-aorus-pro-ax-motherboard-1.jpg",
+        "description": "A budget-friendly motherboard for 10th and 11th-gen Intel processors, supporting PCIe 4.0 and M.2 storage.",
+        "price": 20000,
+        "brand": "Intel",
+        "category": "Motherboard",
+        "ratings": 4.5,
+        "productCreationDateTime": "08/16/24, 5:00 PM"
+    },
+    {
+        "productName": "Asus H570 Phantom Gaming 4",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Asus/H570-PRO/h570-pro-wifi-1.jpg",
+        "description": "A reliable motherboard for Intel 10th and 11th-gen processors with solid features for mainstream users.",
+        "price": 35000,
+        "brand": "Intel",
+        "category": "Motherboard",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/16/24, 5:15 PM"
+    },
+    {
+        "productName": "Asrock H510M-HDV",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Intel/h510m-hdv.jpg",
+        "description": "An entry-level motherboard for Intel 10th and 11th-gen processors, offering essential features for basic computing.",
+        "price": 15000,
+        "brand": "Intel",
+        "category": "Motherboard",
+        "ratings": 4.3,
+        "productCreationDateTime": "08/16/24, 5:30 PM"
+    },
+    {
+        "productName": "Intel Arc A770",
+        "productImage": "https://www.techlandbd.com/image/catalog/Sparkle/Intel-Arc-A770-TITAN-OC-Edition-1.jpg",
+        "description": "A high-performance graphics card from Intel, featuring 32 Xe-cores and ray tracing support.",
+        "price": 60000,
+        "brand": "Intel",
+        "category": "Graphics Card",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/16/24, 5:45 PM"
+    },
+    {
+        "productName": "Intel Arc A750",
+        "productImage": "https://www.techlandbd.com/image/catalog/Graphics%20Card/Gunnier/gunnir-intel-arc-a750-photon-8g-oc-w-graphics-card/gunnir-intel-arc-a750-photon-8g-oc-w-graphics-card.jpg",
+        "description": "A mid-range graphics card with 28 Xe-cores, ideal for 1080p gaming with high frame rates.",
+        "price": 45000,
+        "brand": "Intel",
+        "category": "Graphics Card",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/16/24, 6:00 PM"
+    },
+    {
+        "productName": "Intel Arc A580",
+        "productImage": "https://www.techlandbd.com/image/catalog/ASRock/asrock-intel-arc-a580-8gb-gddr6-graphics-card-4.jpg",
+        "description": "A budget-friendly graphics card with 24 Xe-cores, offering good performance for casual gamers.",
+        "price": 35000,
+        "brand": "Intel",
+        "category": "Graphics Card",
+        "ratings": 4.5,
+        "productCreationDateTime": "08/16/24, 6:15 PM"
+    },
+    {
+        "productName": "Intel Arc A370M",
+        "productImage": "https://www.techlandbd.com/image/catalog/Graphics%20Card/intel/arc-a750/arc-a750.jpg",
+        "description": "A mobile graphics card designed for laptops, providing solid performance for portable gaming.",
+        "price": 30000,
+        "brand": "Intel",
+        "category": "Graphics Card",
+        "ratings": 4.4,
+        "productCreationDateTime": "08/16/24, 6:30 PM"
+    },
+    {
+        "productName": "Intel Arc A310",
+        "productImage": "https://www.techlandbd.com/image/catalog/Graphics%20Card/intel/intel-arc-a750-8gb-gddr6-limited-tiger-gold-edition-graphics-card/intel-arc-a750-8gb-gddr6-limited-tiger-gold-edition-graphics-card-01.jpg",
+        "description": "An entry-level graphics card for budget builds, offering basic performance for light gaming.",
+        "price": 20000,
+        "brand": "Intel",
+        "category": "Graphics Card",
+        "ratings": 4.3,
+        "productCreationDateTime": "08/16/24, 6:45 PM"
+    },
+    {
+        "productName": "Intel Arc A550M",
+        "productImage": "https://www.techlandbd.com/image/catalog/Graphics%20Card/intel/113.jpg",
+        "description": "A balanced mobile graphics card for laptops, providing good gaming performance and power efficiency.",
+        "price": 40000,
+        "brand": "Intel",
+        "category": "Graphics Card",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/16/24, 7:00 PM"
+    }, 
+    {
+        "productName": "AMD Ryzen 7 7700X",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/AMD/amd-ryzen-7-7700x-processor/amd-ryzen-7-7700x-processor-01.jpg",
+        "description": "A high-performance 7th-gen processor with 8 cores and 16 threads, perfect for gaming and productivity.",
+        "price": 45000,
+        "brand": "AMD",
+        "category": "Processor",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/16/24, 2:00 PM"
+    },
+    {
+        "productName": "AMD Ryzen 5 7600X",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/AMD/amd-ryzen-5-7600x-processor/amd-ryzen-5-7600x-processor-01.jpg",
+        "description": "A mid-range 7th-gen processor with 6 cores and 12 threads, providing excellent value for gaming.",
+        "price": 35000,
+        "brand": "AMD",
+        "category": "Processor",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/16/24, 2:15 PM"
+    },
+    {
+        "productName": "AMD Ryzen 9 5900X",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/AMD/Ryzen%209/ryzen-9-processor.jpg",
+        "description": "A 5th-gen processor with 12 cores and 24 threads, delivering top-tier performance for demanding tasks.",
+        "price": 55000,
+        "brand": "AMD",
+        "category": "Processor",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/16/24, 2:30 PM"
+    },
+    {
+        "productName": "AMD Ryzen 7 3800X",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/AMD/Ryzen%207/amd-ryzen-7-3800xt-processor.jpg",
+        "description": "A solid 3rd-gen processor with 8 cores and 16 threads, suitable for gaming and multitasking.",
+        "price": 40000,
+        "brand": "AMD",
+        "category": "Processor",
+        "ratings": 4.5,
+        "productCreationDateTime": "08/16/24, 2:45 PM"
+    },
+    {
+        "productName": "AMD Ryzen 5 3600X",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/AMD/Ryzen%205/ryzen-5-3600x-processor-price-in-bd.jpg",
+        "description": "A budget-friendly 3rd-gen processor with 6 cores and 12 threads, offering good performance for gaming.",
+        "price": 25000,
+        "brand": "AMD",
+        "category": "Processor",
+        "ratings": 4.4,
+        "productCreationDateTime": "08/16/24, 3:00 PM"
+    },
+    {
+        "productName": "AMD X670E Taichi",
+        "productImage": "https://www.techlandbd.com/image/catalog/products_2024/gigabyte-x670e-aorus-pro-x-ddr5-motherboard-1.jpg",
+        "description": "A high-end motherboard for AMD Ryzen 7000-series processors with PCIe 5.0 support and advanced cooling.",
+        "price": 50000,
+        "brand": "AMD",
+        "category": "Motherboard",
+        "ratings": 4.9,
+        "productCreationDateTime": "08/16/24, 3:15 PM"
+    },
+    {
+        "productName": "Gigabyte B550 AORUS Elite",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Asrock/B550%20AORUS%20ELITE/ASROCK%20ALITE.jpg",
+        "description": "A versatile motherboard for AMD Ryzen 3000 and 5000-series processors with robust power delivery.",
+        "price": 30000,
+        "brand": "AMD",
+        "category": "Motherboard",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/16/24, 3:30 PM"
+    },
+    {
+        "productName": "Gigabyte X570S AORUS Master",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Gigabyte/AMD/X570S%20AORUS%20MASTER/gigabyte-x570s-aorus-master-motherboard-1.jpg",
+        "description": "A premium motherboard with advanced thermal design, optimized for AMD Ryzen 5000-series processors.",
+        "price": 45000,
+        "brand": "AMD",
+        "category": "Motherboard",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/16/24, 3:45 PM"
+    },
+    {
+        "productName": "MSI B450 Tomahawk Max",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Msi/B450/B450%20TOMAHAWK%20MAX%20II/msi-b450-tomahawk-max-ii-motherboard-1.png",
+        "description": "A reliable motherboard for AMD Ryzen 2000 and 3000-series processors, offering great value for budget builds.",
+        "price": 15000,
+        "brand": "AMD",
+        "category": "Motherboard",
+        "ratings": 4.5,
+        "productCreationDateTime": "08/16/24, 4:00 PM"
+    },
+    {
+        "productName": "Gigabyte B650M DS3H",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Gigabyte/b650m-ds3h/gigabyte-b650m-ds3h.jpg",
+        "description": "A budget-friendly motherboard for AMD Ryzen 7000-series processors with PCIe 4.0 support.",
+        "price": 20000,
+        "brand": "AMD",
+        "category": "Motherboard",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/16/24, 4:15 PM"
+    },
+    {
+        "productName": "Gigabyte X399 AORUS Pro",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Gigabyte/AMD/B550M%20AORUS%20PRO-P/gigabyte-b550m-aorus-pro-p-motherboard-1.png",
+        "description": "A high-performance motherboard designed for AMD Ryzen Threadripper processors with quad-channel DDR4 support.",
+        "price": 60000,
+        "brand": "AMD",
+        "category": "Motherboard",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/16/24, 4:30 PM"
+    },
+    {
+        "productName": "MSI Radeon RX 6900 XT",
+        "productImage": "https://www.techlandbd.com/image/catalog/Graphics%20Card/MSI/RX%206900%20XT%20GAMING%20Z%20TRIO/MSI%20Radeon%20RX%206900%20XT-01.jpg",
+        "description": "A flagship graphics card featuring RDNA 2 architecture, providing exceptional 4K gaming performance.",
+        "price": 80000,
+        "brand": "AMD",
+        "category": "Graphics Card",
+        "ratings": 4.9,
+        "productCreationDateTime": "08/16/24, 4:45 PM"
+    },
+    {
+        "productName": "ASUS TUF Radeon RX 6800 XT",
+        "productImage": "https://www.techlandbd.com/image/catalog/Graphics%20Card/Asus/RX6900XT-oc/TUF-RX6800XT-O16G-GAMING.jpg",
+        "description": "A high-end graphics card with 16GB GDDR6 memory, ideal for 1440p gaming with ray tracing.",
+        "price": 70000,
+        "brand": "AMD",
+        "category": "Graphics Card",
+        "ratings": 4.8,
+        "productCreationDateTime": "08/16/24, 5:00 PM"
+    },
+    {
+        "productName": "Gigabyte Radeon RX 6700 XT",
+        "productImage": "https://www.techlandbd.com/image/catalog/Graphics%20Card/Gigabyte/RX%206700%20XT%20GAMING%20OC/gigabyte-rx-6700-xt-gaming-oc-graphics-card-1.png",
+        "description": "A powerful graphics card offering excellent performance for 1440p gaming with high frame rates.",
+        "price": 60000,
+        "brand": "AMD",
+        "category": "Graphics Card",
+        "ratings": 4.7,
+        "productCreationDateTime": "08/16/24, 5:15 PM"
+    },
+    {
+        "productName": "Asrock Radeon RX 6600 XT",
+        "productImage": "https://www.techlandbd.com/image/catalog/Graphics%20Card/Asrock/AMD/RX%206600%20XT%20Challenger%20D/asrock_amd_radeon_rx_6600_xt-500x500-01.jpg",
+        "description": "A mid-range graphics card designed for 1080p gaming with great performance-per-watt.",
+        "price": 40000,
+        "brand": "AMD",
+        "category": "Graphics Card",
+        "ratings": 4.6,
+        "productCreationDateTime": "08/16/24, 5:30 PM"
+    },
+    {
+        "productName": "Peladn Radeon RX 6500 XT",
+        "productImage": "https://www.techlandbd.com/image/catalog/PELADN-/peladn-rx-6500-xt-8g-armour-navi-gddr6-gpu-1.jpg",
+        "description": "An affordable graphics card offering solid 1080p gaming performance at a budget price.",
+        "price": 30000,
+        "brand": "AMD",
+        "category": "Graphics Card",
+        "ratings": 4.5,
+        "productCreationDateTime": "08/16/24, 5:45 PM"
+    },
+    {
+        "productName": "Gigabyte Radeon RX 6400",
+        "productImage": "https://www.techlandbd.com/image/catalog/Graphics%20Card/Gigabyte/RX-6400/Radeon-RX-6400-EAGLE-4G/gigabyte-radeon-rx-6400-eagle-4g-graphics-card-01.jpg",
+        "description": "An entry-level graphics card for casual gaming and everyday computing tasks.",
+        "price": 20000,
+        "brand": "AMD",
+        "category": "Graphics Card",
+        "ratings": 4.4,
+        "productCreationDateTime": "08/16/24, 6:00 PM"
     }
 ]
+
+

@@ -2,6 +2,7 @@
 
 Live Site : 
 -[GameLand](https://gameland-972b5.web.app/)
+
 ## Project Overview
 
 GameLand is an e-commerce website tailored for PC enthusiasts, offering a wide range of electronic computer parts. It features advanced sorting with pagination, filters by brand, category, price, and more. Users can easily create accounts and log in quickly with Google Firebase authentication. GameLand provides a seamless experience for building, upgrading, or customizing gaming rigs, with search functionality and sorting by the latest products, price range, and more.
@@ -43,3 +44,5 @@ The frontend is deployed on Firebase . You can view the live website here.
 4. Filter products by brand, category, and price range.
 4. Sort products by price or newest arrivals.
 5. Sign in with Google or Email/Password.
+
+
