@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useEffect, useState } from "react";
-import image from "../assets/loginBg.jpg";
+import image from "../assets/casing.jpg";
 import logo from "../assets/logo.png";
 import google from "../assets/google.svg";
 import { FaLock } from "react-icons/fa";
@@ -69,14 +69,14 @@ const Login = () => {
           <div className="cursor-pointer flex items-center">
             <img className="size-24 md:size-40" src={logo} alt="" />
             <div className="text-2xl md:text-4xl lg:text-5xl font-lora font-semibold text-white">
-              <h2 className="">Elite Estate</h2>
-              <h2 className=" "> Solutions</h2>
+              <h2 className="">GameLand</h2>
+         
             </div>
           </div>
           <div className="font-lora text-white opacity-90 ml-6">
             <h2 className="md:text-2xl flex">
               <FaQuoteLeft className="-mt-2" />
-              Your Success, Our Commitment
+              Unleash the Beast in Your PC
               <FaQuoteRight className="-mt-2" />
             </h2>
           </div>
