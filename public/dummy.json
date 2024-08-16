@@ -1,0 +1,416 @@
+[
+    {
+        "productName": "Intel Core i9-13900K",
+        "productImage": "images/intel-i9-13900k.jpg",
+        "description": "A high-performance 13th-gen processor with 16 cores and 24 threads, ideal for gaming and multitasking.",
+        "price": 599.99,
+        "category": "Processor",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T12:00:00Z"
+    },
+    {
+        "productName": "AMD Ryzen 9 7900X",
+        "productImage": "images/amd-ryzen-9-7900x.jpg",
+        "description": "A powerful 12-core processor from AMD’s latest Ryzen series, perfect for gaming and content creation.",
+        "price": 549.99,
+        "category": "Processor",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T12:15:00Z"
+    },
+    {
+        "productName": "ASUS ROG Strix Z790-E Gaming",
+        "productImage": "images/asus-rog-strix-z790-e.jpg",
+        "description": "A premium motherboard with Wi-Fi 6E and PCIe 5.0, designed for high-performance gaming PCs.",
+        "price": 399.99,
+        "category": "Motherboard",
+        "ratings": 4.9,
+        "productCreationDateTime": "2024-08-16T12:30:00Z"
+    },
+    {
+        "productName": "MSI MAG B660M Mortar WiFi DDR4",
+        "productImage": "images/msi-mag-b660m.jpg",
+        "description": "A compact micro-ATX motherboard with Wi-Fi 6 and DDR4 support, offering great value for gaming builds.",
+        "price": 189.99,
+        "category": "Motherboard",
+        "ratings": 4.6,
+        "productCreationDateTime": "2024-08-16T12:45:00Z"
+    },
+    {
+        "productName": "Corsair Vengeance RGB Pro 32GB",
+        "productImage": "images/corsair-vengeance-rgb-pro.jpg",
+        "description": "32GB DDR4 RAM with customizable RGB lighting, delivering high performance for gaming and multitasking.",
+        "price": 149.99,
+        "category": "RAM",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T13:00:00Z"
+    },
+    {
+        "productName": "G.Skill Trident Z Neo 16GB",
+        "productImage": "images/gskill-trident-z-neo.jpg",
+        "description": "16GB DDR4 RAM optimized for AMD Ryzen processors, featuring sleek RGB lighting.",
+        "price": 99.99,
+        "category": "RAM",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T13:15:00Z"
+    },
+    {
+        "productName": "Samsung 970 EVO Plus 1TB",
+        "productImage": "images/samsung-970-evo-plus.jpg",
+        "description": "1TB NVMe SSD with exceptional read/write speeds, ideal for gaming and professional use.",
+        "price": 129.99,
+        "category": "SSD",
+        "ratings": 4.9,
+        "productCreationDateTime": "2024-08-16T13:30:00Z"
+    },
+    {
+        "productName": "WD Blue 2TB SATA HDD",
+        "productImage": "images/wd-blue-2tb.jpg",
+        "description": "Reliable 2TB hard drive with ample storage space for games, media, and more.",
+        "price": 69.99,
+        "category": "Hard Disk",
+        "ratings": 4.5,
+        "productCreationDateTime": "2024-08-16T13:45:00Z"
+    },
+    {
+        "productName": "NVIDIA GeForce RTX 4090",
+        "productImage": "images/nvidia-rtx-4090.jpg",
+        "description": "Top-tier graphics card with ray tracing, delivering unmatched performance for gaming and rendering.",
+        "price": 1599.99,
+        "category": "Graphics Card",
+        "ratings": 4.9,
+        "productCreationDateTime": "2024-08-16T14:00:00Z"
+    },
+    {
+        "productName": "AMD Radeon RX 7900 XTX",
+        "productImage": "images/amd-radeon-rx-7900-xtx.jpg",
+        "description": "A powerful GPU with advanced RDNA 3 architecture, offering excellent performance for 4K gaming.",
+        "price": 999.99,
+        "category": "Graphics Card",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T14:15:00Z"
+    },
+    {
+        "productName": "Corsair RM850x 850W Power Supply",
+        "productImage": "images/corsair-rm850x.jpg",
+        "description": "Fully modular 850W power supply with 80 PLUS Gold certification, ensuring reliable power delivery.",
+        "price": 129.99,
+        "category": "Power Supply",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T14:30:00Z"
+    },
+    {
+        "productName": "EVGA 750 BQ 750W Power Supply",
+        "productImage": "images/evga-750-bq.jpg",
+        "description": "Semi-modular 750W power supply with 80 PLUS Bronze certification, providing great value and efficiency.",
+        "price": 89.99,
+        "category": "Power Supply",
+        "ratings": 4.6,
+        "productCreationDateTime": "2024-08-16T14:45:00Z"
+    },
+    {
+        "productName": "NZXT H510 Elite Mid-Tower Case",
+        "productImage": "images/nzxt-h510-elite.jpg",
+        "description": "Sleek mid-tower case with tempered glass panels and customizable RGB lighting for a stylish gaming setup.",
+        "price": 149.99,
+        "category": "Casing",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T15:00:00Z"
+    },
+    {
+        "productName": "Phanteks Eclipse P400A",
+        "productImage": "images/phanteks-eclipse-p400a.jpg",
+        "description": "High-airflow mid-tower case with mesh front panel, perfect for cooling high-performance builds.",
+        "price": 89.99,
+        "category": "Casing",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T15:15:00Z"
+    },
+    {
+        "productName": "Intel Core i7-12700K",
+        "productImage": "images/intel-i7-12700k.jpg",
+        "description": "12th-gen Intel processor with 12 cores and 20 threads, offering excellent gaming performance.",
+        "price": 419.99,
+        "category": "Processor",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T15:30:00Z"
+    },
+    {
+        "productName": "AMD Ryzen 7 5800X",
+        "productImage": "images/amd-ryzen-7-5800x.jpg",
+        "description": "8-core processor from AMD’s Ryzen 5000 series, perfect for high-performance gaming and productivity.",
+        "price": 349.99,
+        "category": "Processor",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T15:45:00Z"
+    },
+    {
+        "productName": "ASUS TUF Gaming B550-PLUS",
+        "productImage": "images/asus-tuf-gaming-b550-plus.jpg",
+        "description": "Durable and feature-rich AMD B550 motherboard with support for PCIe 4.0 and Wi-Fi 6.",
+        "price": 159.99,
+        "category": "Motherboard",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T16:00:00Z"
+    },
+    {
+        "productName": "Gigabyte X570 AORUS Elite",
+        "productImage": "images/gigabyte-x570-aorus-elite.jpg",
+        "description": "High-performance AMD X570 motherboard with PCIe 4.0 support and robust power delivery.",
+        "price": 229.99,
+        "category": "Motherboard",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T16:15:00Z"
+    },
+    {
+        "productName": "Corsair Vengeance LPX 16GB",
+        "productImage": "images/corsair-vengeance-lpx.jpg",
+        "description": "16GB DDR4 RAM designed for high-performance overclocking, featuring a low-profile design.",
+        "price": 89.99,
+        "category": "RAM",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T16:30:00Z"
+    },
+    {
+        "productName": "Kingston Fury Beast 32GB",
+        "productImage": "images/kingston-fury-beast.jpg",
+        "description": "32GB DDR4 RAM with a sleek design and powerful performance for gaming and multitasking.",
+        "price": 139.99,
+        "category": "RAM",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T16:45:00Z"
+    },
+    {
+        "productName": "Crucial MX500 1TB SSD",
+        "productImage": "images/crucial-mx500-1tb.jpg",
+        "description": "1TB SATA SSD with fast read/write speeds and integrated power loss immunity for reliable performance.",
+        "price": 109.99,
+        "category": "SSD",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T17:00:00Z"
+    },
+    {
+        "productName": "Seagate BarraCuda 4TB HDD",
+        "productImage": "images/seagate-barracuda-4tb.jpg",
+        "description": "4TB hard drive offering massive storage capacity for games, media, and more.",
+        "price": 99.99,
+        "category": "Hard Disk",
+        "ratings": 4.5,
+        "productCreationDateTime": "2024-08-16T17:15:00Z"
+    },
+    {
+        "productName": "ZOTAC GeForce RTX 3070 Ti",
+        "productImage": "images/zotac-rtx-3070-ti.jpg",
+        "description": "A powerful graphics card with enhanced ray tracing and DLSS support for ultra-smooth gaming.",
+        "price": 799.99,
+        "category": "Graphics Card",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T17:30:00Z"
+    },
+    {
+        "productName": "Sapphire Nitro+ RX 6700 XT",
+        "productImage": "images/sapphire-nitro-rx-6700-xt.jpg",
+        "description": "High-performance AMD graphics card with advanced cooling and overclocking features.",
+        "price": 699.99,
+        "category": "Graphics Card",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T17:45:00Z"
+    },
+    {
+        "productName": "Cooler Master MWE Gold 650W",
+        "productImage": "images/cooler-master-mwe-gold-650w.jpg",
+        "description": "650W power supply with 80 PLUS Gold efficiency, fully modular cables, and silent operation.",
+        "price": 99.99,
+        "category": "Power Supply",
+        "ratings": 4.6,
+        "productCreationDateTime": "2024-08-16T18:00:00Z"
+    },
+    {
+        "productName": "Thermaltake Smart 500W",
+        "productImage": "images/thermaltake-smart-500w.jpg",
+        "description": "Reliable 500W power supply with 80 PLUS certification and continuous power output.",
+        "price": 59.99,
+        "category": "Power Supply",
+        "ratings": 4.5,
+        "productCreationDateTime": "2024-08-16T18:15:00Z"
+    },
+    {
+        "productName": "Fractal Design Meshify C",
+        "productImage": "images/fractal-design-meshify-c.jpg",
+        "description": "Compact mid-tower case with a mesh front panel for optimized airflow and sleek design.",
+        "price": 99.99,
+        "category": "Casing",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T18:30:00Z"
+    },
+    {
+        "productName": "Lian Li PC-O11 Dynamic",
+        "productImage": "images/lian-li-pc-o11-dynamic.jpg",
+        "description": "Stylish and spacious mid-tower case with dual-chamber design, ideal for showcasing high-end builds.",
+        "price": 139.99,
+        "category": "Casing",
+        "ratings": 4.9,
+        "productCreationDateTime": "2024-08-16T18:45:00Z"
+    },
+    {
+        "productName": "Intel Core i5-12600K",
+        "productImage": "images/intel-i5-12600k.jpg",
+        "description": "Affordable and powerful 12th-gen Intel processor with 10 cores and 16 threads for versatile gaming.",
+        "price": 299.99,
+        "category": "Processor",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T19:00:00Z"
+    },
+    {
+        "productName": "AMD Ryzen 5 5600X",
+        "productImage": "images/amd-ryzen-5-5600x.jpg",
+        "description": "6-core processor with high clock speeds and great efficiency, offering excellent gaming performance.",
+        "price": 199.99,
+        "category": "Processor",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T19:15:00Z"
+    },
+    {
+        "productName": "MSI B550M PRO-VDH WiFi",
+        "productImage": "images/msi-b550m-pro-vdh.jpg",
+        "description": "Compact micro-ATX motherboard with support for PCIe 4.0 and Wi-Fi 6, designed for budget gaming builds.",
+        "price": 129.99,
+        "category": "Motherboard",
+        "ratings": 4.6,
+        "productCreationDateTime": "2024-08-16T19:30:00Z"
+    },
+    {
+        "productName": "ASRock B450M Steel Legend",
+        "productImage": "images/asrock-b450m-steel-legend.jpg",
+        "description": "Durable and feature-packed micro-ATX motherboard with support for AMD Ryzen processors.",
+        "price": 99.99,
+        "category": "Motherboard",
+        "ratings": 4.5,
+        "productCreationDateTime": "2024-08-16T19:45:00Z"
+    },
+    {
+        "productName": "HyperX Predator RGB 32GB",
+        "productImage": "images/hyperx-predator-rgb.jpg",
+        "description": "32GB DDR4 RAM with aggressive styling and RGB lighting, delivering high speeds for gaming and multitasking.",
+        "price": 149.99,
+        "category": "RAM",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T20:00:00Z"
+    },
+    {
+        "productName": "TEAMGROUP T-Force Delta RGB 16GB",
+        "productImage": "images/teamgroup-t-force-delta-rgb.jpg",
+        "description": "16GB DDR4 RAM with vibrant RGB lighting, offering great performance for gaming builds.",
+        "price": 89.99,
+        "category": "RAM",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T20:15:00Z"
+    },
+    {
+        "productName": "WD Black SN850 1TB SSD",
+        "productImage": "images/wd-black-sn850-1tb.jpg",
+        "description": "High-speed NVMe SSD with PCIe 4.0 support, perfect for gaming and demanding applications.",
+        "price": 199.99,
+        "category": "SSD",
+        "ratings": 4.9,
+        "productCreationDateTime": "2024-08-16T20:30:00Z"
+    },
+    {
+        "productName": "Toshiba X300 4TB HDD",
+        "productImage": "images/toshiba-x300-4tb.jpg",
+        "description": "4TB hard drive with high capacity and performance, ideal for gaming and storage-heavy tasks.",
+        "price": 109.99,
+        "category": "Hard Disk",
+        "ratings": 4.6,
+        "productCreationDateTime": "2024-08-16T20:45:00Z"
+    },
+    {
+        "productName": "Gigabyte GeForce RTX 3060",
+        "productImage": "images/gigabyte-geforce-rtx-3060.jpg",
+        "description": "Mid-range graphics card with ray tracing and DLSS support, delivering smooth gaming performance.",
+        "price": 429.99,
+        "category": "Graphics Card",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T21:00:00Z"
+    },
+    {
+        "productName": "ASUS Dual Radeon RX 6600 XT",
+        "productImage": "images/asus-dual-radeon-rx-6600-xt.jpg",
+        "description": "Efficient AMD graphics card with dual-fan cooling and support for high-refresh-rate gaming.",
+        "price": 379.99,
+        "category": "Graphics Card",
+        "ratings": 4.6,
+        "productCreationDateTime": "2024-08-16T21:15:00Z"
+    },
+    {
+        "productName": "Corsair RM850x 850W",
+        "productImage": "images/corsair-rm850x-850w.jpg",
+        "description": "850W power supply with 80 PLUS Gold efficiency, fully modular cables, and silent operation.",
+        "price": 129.99,
+        "category": "Power Supply",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T21:30:00Z"
+    },
+    {
+        "productName": "EVGA 600 W1 600W",
+        "productImage": "images/evga-600-w1-600w.jpg",
+        "description": "Affordable 600W power supply with 80 PLUS certification, offering reliable power for budget builds.",
+        "price": 49.99,
+        "category": "Power Supply",
+        "ratings": 4.4,
+        "productCreationDateTime": "2024-08-16T21:45:00Z"
+    },
+    {
+        "productName": "NZXT H510",
+        "productImage": "images/nzxt-h510.jpg",
+        "description": "Compact mid-tower case with a clean, modern design and optimized airflow.",
+        "price": 69.99,
+        "category": "Casing",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T22:00:00Z"
+    },
+    {
+        "productName": "Phanteks Eclipse P400A",
+        "productImage": "images/phanteks-eclipse-p400a.jpg",
+        "description": "Mid-tower case with a mesh front panel for superior airflow, ideal for high-performance builds.",
+        "price": 89.99,
+        "category": "Casing",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T22:15:00Z"
+    },
+    {
+        "productName": "Intel Core i7-12700K",
+        "productImage": "images/intel-i7-12700k.jpg",
+        "description": "Powerful 12th-gen Intel processor with 12 cores and 20 threads, ideal for gaming and content creation.",
+        "price": 409.99,
+        "category": "Processor",
+        "ratings": 4.9,
+        "productCreationDateTime": "2024-08-16T22:30:00Z"
+    },
+    {
+        "productName": "AMD Ryzen 7 5800X",
+        "productImage": "images/amd-ryzen-7-5800x.jpg",
+        "description": "8-core processor offering excellent multi-threaded performance, perfect for gaming and productivity.",
+        "price": 299.99,
+        "category": "Processor",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T22:45:00Z"
+    },
+    {
+        "productName": "Gigabyte B450 AORUS Elite",
+        "productImage": "images/gigabyte-b450-aorus-elite.jpg",
+        "description": "ATX motherboard with support for AMD Ryzen processors and advanced cooling options.",
+        "price": 119.99,
+        "category": "Motherboard",
+        "ratings": 4.6,
+        "productCreationDateTime": "2024-08-16T23:00:00Z"
+    },
+    {
+        "productName": "ASUS TUF Gaming X570-PLUS",
+        "productImage": "images/asus-tuf-gaming-x570-plus.jpg",
+        "description": "Durable ATX motherboard with PCIe 4.0 support, ideal for high-performance gaming builds.",
+        "price": 189.99,
+        "category": "Motherboard",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T23:15:00Z"
+    }
+]

@@ -1,0 +1,47 @@
+[
+    {
+        "productName": "Intel Core i9-13900K",
+        "productImage": "https://www.techlandbd.com/image/catalog/Processor/Intel/13th-gen/intel-core-i9-13900k-processor.jpg",
+        "description": "A high-performance 13th-gen processor with 16 cores and 24 threads, ideal for gaming and multitasking.",
+        "price": 599.99,
+        "category": "Processor",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T12:00:00Z"
+    },
+    {
+        "productName": "AMD Ryzen 9 7900X",
+        "productImage": "https://www.techlandbd.com/image/catalog/AMD/amd-ryzen-9-7900x-processor.jpg",
+        "description": "A powerful 12-core processor from AMD’s latest Ryzen series, perfect for gaming and content creation.",
+        "price": 549.99,
+        "category": "Processor",
+        "ratings": 4.7,
+        "productCreationDateTime": "2024-08-16T12:15:00Z"
+    },
+    {
+        "productName": "ASUS ROG Strix Z790-E Gaming",
+        "productImage": "https://www.techlandbd.com/image/catalog/Monitor/Asus/asus-rog-strix-z790-e-motherboard/asus-rog-strix-z790-e-motherboard-01.jpg",
+        "description": "A premium motherboard with Wi-Fi 6E and PCIe 5.0, designed for high-performance gaming PCs.",
+        "price": 399.99,
+        "category": "Motherboard",
+        "ratings": 4.9,
+        "productCreationDateTime": "2024-08-16T12:30:00Z"
+    },
+    {
+        "productName": "MSI MAG B660M Mortar WiFi DDR4",
+        "productImage": "https://www.techlandbd.com/image/catalog/Motherboard/Msi/MAG%20B660M%20MORTAR%20WIFI%20DDR4/MAG%20B660M%20MORTAR%20WIFI%20DDR4-01.jpg",
+        "description": "A compact micro-ATX motherboard with Wi-Fi 6 and DDR4 support, offering great value for gaming builds.",
+        "price": 189.99,
+        "category": "Motherboard",
+        "ratings": 4.6,
+        "productCreationDateTime": "2024-08-16T12:45:00Z"
+    },
+    {
+        "productName": "Corsair Vengeance RGB Pro 32GB",
+        "productImage": "https://www.techlandbd.com/image/catalog/RAM/Corsair/corsair-vengeance-rgb-32gb-2x16gb-ram/corsair-vengeance-rgb-32gb-2x16gb-ram.jpg",
+        "description": "32GB DDR4 RAM with customizable RGB lighting, delivering high performance for gaming and multitasking.",
+        "price": 149.99,
+        "category": "RAM",
+        "ratings": 4.8,
+        "productCreationDateTime": "2024-08-16T13:00:00Z"
+    }
+]
