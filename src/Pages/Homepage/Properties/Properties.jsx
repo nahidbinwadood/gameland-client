@@ -11,6 +11,8 @@ const Properties = () => {
       });
   }, []);
   console.log(data);
+
+  const  pages=[...Array(5).keys()].map(e=>e+1)
   return (
     <div className="mt-20 container mx-auto">
       <div className="text-center space-y-4">
@@ -24,6 +26,8 @@ const Properties = () => {
           to power up your next gaming adventure.{" "}
         </p>
       </div>
+
+      {/* Filters */}
       <div className="flex items-center justify-between">
         <div className="flex flex-col md:flex-row gap-5 items-center">
           <div>
@@ -127,10 +131,76 @@ const Properties = () => {
           </div>
         </div>
       </div>
+
+      {/* Cards */}
       <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {data.map((product, idx) => (
           <ProductsCard key={idx} product={product}></ProductsCard>
         ))}
+      </div>
+
+      {/* Pagination Section */}
+      <div className='flex justify-center mt-12'>
+        {/* Previous Button */}
+        <button
+          //disabled={currentPage === 1}
+          //onClick={() => handlePaginationButton(currentPage - 1)}
+          className='px-4 py-2 mx-1 text-gray-700 disabled:text-gray-500 capitalize bg-gray-200 rounded-md disabled:cursor-not-allowed disabled:hover:bg-gray-200 disabled:hover:text-gray-500 hover:bg-blue-500  hover:text-white'
+        >
+          <div className='flex items-center -mx-1'>
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              className='w-6 h-6 mx-1 rtl:-scale-x-100'
+              fill='none'
+              viewBox='0 0 24 24'
+              stroke='currentColor'
+            >
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth='2'
+                d='M7 16l-4-4m0 0l4-4m-4 4h18'
+              />
+            </svg>
+
+            <span className='mx-1'>previous</span>
+          </div>
+        </button>
+        {/* Numbers */}
+        {pages.map(btnNum => (
+          <button
+           // onClick={() => handlePaginationButton(btnNum)}
+            key={btnNum}
+            className={`hidden   px-4 py-2 mx-1 transition-colors duration-300 transform  rounded-md sm:inline hover:bg-blue-500  hover:text-white`}
+          >
+            {btnNum}
+          </button>
+        ))}
+        {/* Next Button */}
+        <button
+          //disabled={currentPage === numberOfPages}
+          //onClick={() => handlePaginationButton(currentPage + 1)}
+          className='px-4 py-2 mx-1 text-gray-700 transition-colors duration-300 transform bg-gray-200 rounded-md hover:bg-blue-500 disabled:hover:bg-gray-200 disabled:hover:text-gray-500 hover:text-white disabled:cursor-not-allowed disabled:text-gray-500'
+        >
+          <div className='flex items-center -mx-1'>
+            <span className='mx-1'>Next</span>
+
+            <svg
+              xmlns='http://www.w3.org/2000/svg'
+              className='w-6 h-6 mx-1 rtl:-scale-x-100'
+              fill='none'
+              viewBox='0 0 24 24'
+              stroke='currentColor'
+            >
+              <path
+                strokeLinecap='round'
+                strokeLinejoin='round'
+                strokeWidth='2'
+                d='M17 8l4 4m0 0l-4 4m4-4H3'
+              />
+            </svg>
+          </div>
+        </button>
       </div>
     </div>
   );
