@@ -3,39 +3,36 @@ import image from "../assets/registerBg.jpg";
 import logo from "../assets/logo.png";
 import google from "../assets/google.svg";
 import { FaLock } from "react-icons/fa";
- 
+
 import {
   FaEnvelope,
   FaEye,
   FaEyeSlash,
   FaQuoteLeft,
   FaQuoteRight,
-  FaRegImage,
 } from "react-icons/fa6";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { GoPersonFill } from "react-icons/go";
 //import useAuth from "../../Hooks/useAuth";
 import { useForm } from "react-hook-form";
 import toast from "react-hot-toast";
-import axios from "axios";
 import { ImSpinner4 } from "react-icons/im";
+import useAuth from "../Hooks/useAuth";
 const Register = () => {
-    const loading=false
-//   const {
-//     registerAccount,
-//     updateUserProfile,
-//     loading,
-//     googleLogIn,
-//     setLoading,
-//   } = useAuth();
+  const {
+    registerAccount,
+    updateUserProfile,
+    loading,
+    googleLogIn,
+    setLoading,
+  } = useAuth();
   const { register, handleSubmit } = useForm();
   const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
   const location = useLocation();
   const onSubmit = async (data) => {
-     
     const { name, email, password } = data;
-    console.log(name,email,password);
+    console.log(name, email, password);
     //password verification:
     if (password.length < 6) {
       toast.error("Your Password Length must be at least 6 character");
@@ -52,33 +49,31 @@ const Register = () => {
       return;
     }
 
-    // try {
-    //   setLoading(true);
-       
-
-    //   //register and update:
-    //   const result = await registerAccount(email, password);
-    //   console.log(result);
-    //   await updateUserProfile(name, data.data.display_url)
-    //   toast.success("Account created Successfully");
-    //   navigate(location?.state || "/");
-    // } catch (err) {
-    //   setLoading(false);
-    //   console.log(err.message);
-    // }
+    try {
+      setLoading(true);
+      //register and update:
+      const result = await registerAccount(email, password);
+      console.log(result);
+      await updateUserProfile(name)
+      toast.success("Account created Successfully");
+      navigate(location?.state || "/");
+    } catch (err) {
+      setLoading(false);
+      console.log(err.message);
+    }
   };
 
-//   const handleGoogle = async () => {
-//     try {
-//       const result = await googleLogIn();
-//       console.log(result);
-//       toast.success("You've been Logged In Successfully");
-//       navigate(location?.state || "/");
-//     } catch (err) {
-//       setLoading(false);
-//       toast.error(err?.message);
-//     }
-//   };
+    const handleGoogle = async () => {
+      try {
+        const result = await googleLogIn();
+        console.log(result);
+        toast.success("You've been Logged In Successfully");
+        navigate(location?.state || "/");
+      } catch (err) {
+        setLoading(false);
+        toast.error(err?.message);
+      }
+    };
 
   return (
     <div
@@ -133,7 +128,6 @@ const Register = () => {
               </div>
               <div className="border border-[#6B6C6C]"></div>
             </div>
-            
 
             <div className="space-y-4">
               <div className="flex items-center gap-5">
@@ -182,8 +176,8 @@ const Register = () => {
               </div>
               <div>
                 <button
-                 // disabled={loading}
-               //   onClick={handleGoogle}
+                   disabled={loading}
+                    onClick={handleGoogle}
                   className=" disabled:cursor-not-allowed  flex items-center gap-4 w-full justify-center border-2 border-[#5571EF50] py-2 rounded-lg"
                 >
                   <img className="size-7" src={google} alt="" />{" "}

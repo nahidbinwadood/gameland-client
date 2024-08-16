@@ -16,10 +16,11 @@ import { ImSpinner4 } from "react-icons/im";
  
 import toast from "react-hot-toast";
 import { useForm } from "react-hook-form";
+import useAuth from "../Hooks/useAuth";
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
-//  const { user, loading, googleLogIn, setLoading, logIn } = useAuth();
+ const { user, loading, googleLogIn, setLoading, logIn } = useAuth();
   const { register, handleSubmit } = useForm();
   const navigate = useNavigate();
   const location = useLocation();
@@ -50,12 +51,12 @@ const Login = () => {
       setLoading(false)
     }
   };
-//   useEffect(() => {
-//     if (user) {
-//       navigate("/");
-//     }
-//   }, [navigate, user]);
-//   if (user) return;
+  useEffect(() => {
+    if (user) {
+      navigate("/");
+    }
+  }, [navigate, user]);
+  if (user) return;
   return (
     <div
       className="w-full bg-center bg-cover md:h-[100vh]  flex flex-col md:flex-row gap-12 md:gap-0 "
@@ -135,17 +136,17 @@ const Login = () => {
             </div>
             <div>
               <div className="pb-4">
-                {/* <button className="cursor-pointer  text-center font-roboto transition duration-150 font-medium text-lg btn-grad px-8 py-3 w-full">
+                <button className="cursor-pointer  text-center font-roboto transition duration-150 font-medium text-lg btn-grad px-8 py-3 w-full">
                   {loading ? (
                     <ImSpinner4 className="animate-spin m-auto size-5" />
                   ) : (
                     "Login"
                   )}
-                </button> */}
+                </button>
               </div>
               <div>
                 <button
-                  //disabled={loading}
+                  disabled={loading}
                   onClick={handleGoogle}
                   className=" disabled:cursor-not-allowed  flex items-center gap-4 w-full justify-center border-2 border-[#5571EF50] py-2 rounded-lg"
                 >
