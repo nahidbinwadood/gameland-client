@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import ProductsCard from "../../../Components/ProductsCard";
-import useAxiosPublic from "../../../Hooks/useAxiosPublic";
+import axios from "axios";
 
 const Properties = () => {
-  const axiosPublic=useAxiosPublic();
   const [data, setData] = useState([]);
   const [brandName, setBrandName] = useState("");
   const [category, setCategory] = useState("");
@@ -12,22 +11,37 @@ const Properties = () => {
   const pages = [...Array(5).keys()].map((e) => e + 1);
   const [search, setSearch] = useState("");
   const [searchText, setSearchText] = useState("");
+
+  const handleReset = () => {
+    setBrandName("");
+    setCategory("");
+    setPriceRange("");
+    setFilter("");
+    setSearchText("");
+    setSearch("");
+    window.location.reload();
+  };
+
   const handleSearch = () => {
     console.log("searching text is", searchText);
     setSearch(searchText);
   };
-  console.log(brandName, category, priceRange, filter,search);
+  console.log(brandName, category, priceRange, filter, search);
 
   useEffect(() => {
-    const getData=async()=>{
-      const response= await axiosPublic("/products")
-      setData(response.data)
-    }
-    getData()
-  }, [axiosPublic]);
+    const getData = async () => {
+      const { data } = await axios(
+        `${
+          import.meta.env.VITE_API_URL
+        }/products?search=${search}&brandName=${brandName}&category=${category}&filter=${filter}`
+      );
+      setData(data);
+    };
+    getData();
+  }, [brandName, category, filter, search]);
 
   return (
-    <div className="mt-20 container mx-auto">
+    <div className="my-20 container mx-auto">
       <div className="text-center space-y-4">
         <h2 className="text-4xl font-bold">Explore All Products</h2>
         <p>
@@ -79,7 +93,7 @@ const Properties = () => {
               </option>
               <option value="Processor">Processor</option>
               <option value="Motherboard">Motherboard</option>
-              <option value="Ram">Ram</option>
+              <option value="RAM">Ram</option>
               <option value="GraphicsCard">GraphicsCard</option>
             </select>
           </div>
@@ -118,7 +132,9 @@ const Properties = () => {
               <option value="new">Newest</option>
             </select>
           </div>
-          <button className="btn-grad font-semibold">Reset</button>
+          <button onClick={handleReset} className="btn-grad font-semibold">
+            Reset
+          </button>
         </div>
         <div
           data-aos="fade-down"
@@ -139,7 +155,7 @@ const Properties = () => {
             />
 
             <button
-               onClick={() => handleSearch()}
+              onClick={() => handleSearch()}
               type="button"
               className="inline-block bg-yellow-500 rounded-lg bg-warning px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-warning-3 transition duration-150 ease-in-out hover:bg-warning-accent-300 hover:shadow-warning-2 focus:bg-warning-accent-300 focus:shadow-warning-2 focus:outline-none focus:ring-0 active:bg-warning-600 active:shadow-warning-2 motion-reduce:transition-none dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
             >
