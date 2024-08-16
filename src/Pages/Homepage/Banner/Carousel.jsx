@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 const Carousel = ({ image, text, paragraph }) => {
   return (
     <div
@@ -17,6 +18,11 @@ const Carousel = ({ image, text, paragraph }) => {
             {paragraph}
           </h2>
           <br />
+          <div className="flex items-center justify-center">
+            <button className="btn-grad font-bold text-xl">
+              <Link to="/all-products">Lets Buy</Link>
+            </button>
+          </div>
         </div>
       </div>
     </div>
