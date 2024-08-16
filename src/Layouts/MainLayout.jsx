@@ -4,7 +4,7 @@ import Footer from "../Shared/Footer";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className="font-lora">
       <Navbar />
       <div className="min-h-[calc(100vh-444px)]">
         <Outlet />
